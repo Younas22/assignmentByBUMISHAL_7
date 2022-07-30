@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form ACTION and name</title>
+	</head>
+	<body>
+			<h1>HTML form</h1>
+		<form action="./thankyou.html" method='GET'>	<!--GET:data goes in url, POST: data hoes as a part of header -->
+			<label for="username">Username:</label>			
+			
+			<input type="text" id="username" name="username">  <!--we use "name" to get/send data for HTTP verb -->
+			<br><br>
+		
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password">
+			<br><br>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email">
+			<br><br>
+		
+			<input type="submit" value="sing in">
+		
+		
+		
+		</form>
+	
+	
+	
+	</body>
+</html>

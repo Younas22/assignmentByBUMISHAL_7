@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>FORM Exercise</title>
+	</head>
+	<body>
+	
+	<h1>Sing up form</h1>
+	<form>
+		
+		<label for="firstname"></label>
+		<input type="text" id="firstname" placeholder="First Name" required>
+		<br><br>
+		<label for="lastname"></label>
+		<input type="text" id="lastname" placeholder="Last Name" required>
+		<br><br>
+		<label for="password"></label>
+		<input type="password" id="password" placeholder="Password" required>
+		<br><br>
+		<label for="email"><!--Email:--></label>
+		<input type="email" id="email" placeholder="Email" required>
+		
+		<p>I am</p>
+		<label for="male">Male</label>
+		<input type="radio" id="male" name="gender">
+		<!--<br><br>-->
+		<label for="female">Female</label >
+		<input type="radio" id="female" name="gender">
+		<!--<br><br>-->
+		<label for="other">Other</label>
+		<input type="radio" id="other" name="gender">
+		<br><br>
+		<label for="country">Select country</label> 
+			<select name="country"><!--value will be recieved in name paramiter-->
+			
+			<option value="Pakistan">Pakistan</option><!--value is to send data-->
+			<option value="United Arab Emirats">United Arab Emirats</option>
+			<option value="Saudia Arabia">Saudia Arabia</option>
+			<option value="Qatar">Qatar</option>
+			<option value="Hong Kong">Hong Kong</option>
+			<option value="Israil">Israil</option>
+						
+			</select>
+		<br><br>
+		<P>write about yourself below</P>
+		<textarea cols="40" rows="15" placeholder="type here"></textarea>
+		
+		<br><br>
+		
+		
+		
+		<input type="submit" value="Submit">
+	
+	
+	</form>
+	
+	
+	</body>
+
+</html>
