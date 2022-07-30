@@ -1,0 +1,14 @@
+body{
+	font-family:arial;
+}
+/*dont use utiliy classes for multipel purpos*/
+.text-red{
+	color:red;
+	
+}
+.text-green{
+	color:green
+}
+.bg-dark{
+	background-color:#555
+}

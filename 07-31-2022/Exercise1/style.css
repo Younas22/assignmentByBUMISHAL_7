@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Prompt:ital@0;1&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Prompt', sans-serif;
+}
+.background-light{
+	background-color:#c8ccca;
+}
+.text-green{
+	color:green;
+}
+.text-hilight-aqua{
+	background-color:aqua;
+}
