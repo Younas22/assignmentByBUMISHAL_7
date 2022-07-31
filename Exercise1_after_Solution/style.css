@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Prompt:ital@0;1&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Prompt', sans-serif;
+}
+header{
+	background-color:#d0d6d5;
+}
+main{
+	background:#e0e0e0;
+}
+.heading-green{
+	color:#00705c;
+}
+.text-hilight-aqua{
+	background-color:aqua;
+}
