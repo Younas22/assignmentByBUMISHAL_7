@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Montserrat:ital,wght@0,500;1,400&family=Prompt:ital@0;1&display=swap');
+
+
+*{ /*universal selector used to reset css*/
+	font-family: 'Exo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Prompt', sans-serif;
+}
+
+header{ /*simple selector*/
+	background:#f0ebeb;
+}
+
+section.my-articles{
+	background:#f2f999;
+}
+/*p{
+	color:red;
+}*/
+header p{ /*descendant selector or combinators means Selects all <p> elements inside <header> elements*/
+	color:red;
+}
+li a{/*means Selects all <a> elements inside <li> elements*/
+	color:blue;
+}
+/*
+section.my-articles h2{means Selects all <h2> elements inside <section> elements named my-articles
+	color:green;
+}
+*/
+section.my-articles > h2{/*Selects all <p> elements where the parent is a <div> element , also called direct child*/
+	color:green;
+}
+/*adjacent selector*/
+h2+p{/*	Selects the first <p> element that is placed immediately after <h2> elements
+
+or you can write: section.my-articles h2+p{}
+*/
+	color:orangered;
+}
+ul+p{/*	Selects the first <p> element that is placed immediately after <ul> elements*/
+	color:green;
+}

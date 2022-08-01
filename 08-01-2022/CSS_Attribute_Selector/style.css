@@ -1,0 +1,36 @@
+*{
+	font-family: 'Exo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Prompt', sans-serif;
+}
+/*input[type = "text"]{
+	color:red;
+	background:aqua;
+}*/
+
+input[type ^= "t"]{
+	color:green;
+}
+input[type = "password"]{
+	color:white;
+	background:pink;
+}
+/**a[href = "https://www.google.ae/"]{
+	color:red;
+}*/
+
+/*a[href *= "google"]{
+	color:red;
+}*/
+/*a[href *= "https"]{
+	color:red;
+}*/
+
+/*a[href ^= "https"]{
+	color:green;
+}*/
+a[href $= ".com/"]{
+	color:red;
+}
+
