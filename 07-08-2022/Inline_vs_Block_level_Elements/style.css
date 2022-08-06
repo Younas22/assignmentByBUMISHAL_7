@@ -1,0 +1,24 @@
+*{
+	font-family: Arial ,Helvetica, sans-serif;
+	color:#444;
+}
+h1, h2{
+	border:2px solid black;
+	/*width:500px;*/
+	/*height:100px;*/
+	display: inline;/*to change block alements into inline elements*/
+}
+
+
+h1{
+	/*margin:100px*/
+	/*padding:100px*/
+}
+
+a{
+	border:2px solid rgb(230, 0, 0);
+	/*margin:100px;*/
+	padding:50px 50px;
+	display:block; /*to change inline alements into block elements*/
+	margin:50px 10px
+}

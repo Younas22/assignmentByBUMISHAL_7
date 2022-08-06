@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Mukta:wght@500&family=Prompt:ital@0;1&display=swap');
+*{
+	font-family: 'Exo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Prompt', sans-serif;
+}
+header{
+	background:#DBDBDB;
+	text-align:center;
+	width:1500px;
+	margin:1px auto;
+}
+h1{
+	padding:10px
+}
+	
+
+section{
+	border:2px solid black;
+	margin:40px auto;
+	width:1500px;
+}
+p{
+	margin:10px;
+	
+}
+h3{
+	margin-left:10px;
+}
