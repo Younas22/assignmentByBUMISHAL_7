@@ -1,0 +1,17 @@
+/*inline style attribute > id selector > class selector >  element selector > */
+h1{
+	color:green;
+}
+
+.h1class{/*classes have more preference comparing to normal aliments because classes are more specific than normal aliments */
+	color:red;
+}
+.heading{/*when there are more than one same selectors specificity will be for the  last one*/
+	color:magenta;
+}
+
+/*
+#h1id{ids are more specific than classes and normal aliments
+	color:blue !important;it is not preferred, but to make high specificity
+}*/
+
