@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Montserrat:ital,wght@0,400;0,500;1,400&family=Mukta:wght@500&family=Poppins&family=Prompt:ital@0;1&display=swap');
+*{
+	font-family: 'Exo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Prompt', sans-serif;
+}
+body{
+	width:90%;
+	margin:0px auto;
+}
+header{
+	background:#eaeaea;
+	
+}
+ul{
+	text-align:center;
+	
+}
+li a{
+	text-decoration:none;
+	color:#62635D;
+}
+li{
+	display:inline-block;
+	text-align:center;
+	font-size:30px;
+	margin:8px 35px;
+	color:#62635D;
+	
+}
+li hr{
+	margin:0px;
+	background-color:#62635D;
+	height:2px;
+	
+	
+}
+h3+hr{
+	margin:0px;
+}
+h3{
+	margin-bottom:0px
+}
+body > section:nth-child(6) > form > p{
+	margin-bottom:0px
+}

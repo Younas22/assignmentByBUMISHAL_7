@@ -1,0 +1,19 @@
+/*a{/*in inline aliment you have limited control 
+	border:2px solid black;
+	margin:50px;/*only left-right
+	padding:50px;/*overlapping problems
+	height:100px;/*does not appare
+	width:100px;/*does not appare
+	
+	
+}*/
+a{
+	display: inline-block;/*now you have freedom to manage, and only block will move it to next line*/
+	border:2px solid black;
+	margin:20px;
+	padding:20px;
+	width:150px;
+	height:100px;
+	
+	
+}
