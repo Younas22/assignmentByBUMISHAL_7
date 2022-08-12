@@ -1,0 +1,23 @@
+body{
+	color:red;
+	
+}/*inherited properties, which by default are set to the computed value of the parent element
+*/
+.container1{
+	color:green;
+	
+	
+}
+.container2{
+	color:blue;
+	
+}
+a{/*non-inherited properties, which by default are set to initial value of the property*/
+	color:brown;
+	text-decoration:none;
+	
+}
+
+/*h1{
+	color:orange;
+}*/

@@ -1,0 +1,22 @@
+hr{
+	width:500px;
+	margin-left:0px;
+	border:0.5px dashed black;
+	
+}
+.box1{
+	box-sizing:border-box;/*to fixed box size even with border or padding we can use it with any alement*/
+	width:500px;
+	background:lightcoral;
+	border:10px solid red;
+	padding:50px;
+		
+}
+.box2{
+	box-sizing:content-box;/*default box sizing it will takes extra place for border or padding*/
+	width:500px;
+	background:lightcoral;
+	border:10px solid red;
+	padding:50px;
+	margin-top:20px;
+}

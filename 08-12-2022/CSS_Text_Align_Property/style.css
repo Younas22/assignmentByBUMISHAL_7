@@ -1,0 +1,13 @@
+h1{
+	background:lightblue;
+	text-align:center;/*right, left*/
+	width:500px;
+	
+}
+a{
+	background:lightcoral;
+	text-align:center;/*does not work without "display block inline" becouse it does not have extra space*/
+	display:inline-block;
+	width:500px;
+	
+}
