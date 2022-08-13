@@ -1,0 +1,7 @@
+/*p:last-child{all p if it is in the last of his parent  
+	color:green;
+}*/
+
+p:last-of-type{/*all last p*/
+	color:red;
+}

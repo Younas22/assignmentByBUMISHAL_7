@@ -1,0 +1,24 @@
+/*:not(p){all are not p
+	color:blue;
+}*/
+/*:not(p){
+	color:blue;
+	
+}*/
+
+/*body :not(.fancy){ all alement has no fancy class
+    color: blue;
+	background:#ddd;
+	
+}*/
+
+/*div:empty{ all empty div
+	background:#222;
+	border:2px solid red;
+	height:100px;
+	width:100px;
+}*/
+:root{/*=html but root has more specifity than html, we use it for veriables*/
+	background:#333;
+	color:#eee;
+}

@@ -1,0 +1,31 @@
+/*p:nth-child(2n+1){ /*all p if it is (2)nd child of his parent
+ if there is 'n' it means:
+2n=2*0=xxx
+	2*1=2
+	2*2=4
+	2*3=6
+	2*4=8
+	2*5=10
+	2*6=12
+	
+	and if there is +1 
+2n+1=2*0+1=1
+	2*1+1=3
+	2*2+1=5
+	2*3+1=7
+	2*4+1=9
+	2*5+1=11
+	2*6+1=13
+	
+	
+ 
+	color:green;
+}*/
+
+p:nth-of-type(2n){ /*all 2nd p */
+	color:red;
+}
+ul li:nth-of-type(2n+1){
+	color:red;
+	background:lightblue;
+}

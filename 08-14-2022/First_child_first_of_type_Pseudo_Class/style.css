@@ -1,0 +1,7 @@
+/*p:first-child{all p if it is in the first place 
+	color:red;
+}*/
+
+p:first-of-type{/*all first p*/
+	color:red;
+}
