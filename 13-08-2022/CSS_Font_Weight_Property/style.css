@@ -1,0 +1,19 @@
+p{
+	font-family: 'Exo', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mukta', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Prompt', sans-serif;
+	font-weight:100/*700= bold, by default is normal (400) so less than 400 is lighter bur depands on font too*/
+}
+h1{
+	font-family: 'Exo', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mukta', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Prompt', sans-serif;
+	font-weight:800;/* normal=400, by default is bold*/
+	font-style:italic;
+	
+	
+}

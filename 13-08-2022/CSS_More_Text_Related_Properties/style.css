@@ -1,0 +1,11 @@
+h1{
+	letter-spacing:4px;
+	font-size:46px;
+	text-decoration:underline wavy red;/*line-through,overline, dotted, solid */
+}
+p{
+	font-size:20px;/*by default is 16px*/
+	line-height:30px; /*space between two lines*/
+	word-spacing:8px;/*space between two words*/
+	letter-spacing:2px;/*space between two letters usually we use in heading*/
+}
