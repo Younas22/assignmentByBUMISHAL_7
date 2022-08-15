@@ -1,0 +1,26 @@
+/*Basically a pseudo-class is "a selector" that assists in the selection of something that cannot be expressed by a simple selector, for example :hover. A pseudo-element however allows us to "create items" that do not normally exist in the document tree, for example ``::after`.*/
+
+.cool::before{/*have to use content, cant use with img, br, input*/
+	display:block;
+	content:"hello";
+	color:green;
+	border:1px dotted black;
+	margin-bottom:5px;
+	padding:5px;
+	
+	
+}
+.cool::after{
+	display:block;
+	content:"hello";
+	color:green;
+	border:1px dotted black;
+	margin-top:5px;
+	padding:5px;
+}
+.main-heading::before{
+	content:"hello ";
+	color:red;
+	
+	
+}

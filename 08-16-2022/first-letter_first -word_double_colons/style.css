@@ -1,0 +1,9 @@
+p::first-line{/*or first-letter with dobble::, and it work with block level elements only */
+	font-size: 32px;
+	
+}
+p::selection{
+	background:black;
+	color:white;
+	
+}
