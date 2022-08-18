@@ -1,0 +1,13 @@
+/*p:nth-child(4n+2){
+    color: green;
+
+}*/
+p:nth-of-type(3n+2){
+    background-color: aliceblue;
+    color: red;
+
+}
+ul li:nth-of-type(2n+5){
+    color:blueviolet;
+    background-color: azure;
+}

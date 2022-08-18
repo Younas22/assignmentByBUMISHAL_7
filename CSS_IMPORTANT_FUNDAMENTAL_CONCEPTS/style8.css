@@ -1,0 +1,28 @@
+.cool::before{
+    display: block;
+    content: 'hello ';
+    color: green;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding-top: 60px;
+    height: 100px;
+    width:200px;
+    text-align: center;
+
+}
+.cool::after{
+    display: block;
+    content: 'hello ';
+    color: green;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding-top: 60px;
+    height: 100px;
+    width:200px;
+    text-align: center;
+
+}
+.main-heading::before{
+    content: 'hello ';
+    color: red;
+}

@@ -1,0 +1,22 @@
+/*LVHA*/
+
+a:hover{/*unvisited*/
+    color: orange;
+
+}
+a:visited{
+    color:red ;
+}
+a:hover{/*when keen cursor on*/
+    color:green ;
+}
+a:active{/*whaile cilicking*/
+    color:black;
+}
+p:hover{
+    color:green ;
+    
+}
+p:active{
+    background-color: #ccc;
+    }
