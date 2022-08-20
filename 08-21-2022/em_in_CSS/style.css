@@ -1,0 +1,8 @@
+h1{
+	font-size:2em;/*2times according to its parent's default or its edited fonts size, so if an element took place more than one in different parents elements size will be different accordingly*/
+	border:2em solid black;/*EM's work is deffernt in other properties, it will check first the font-size of same alement and effect accordingly*/
+	padding:3em;
+}
+.box1{
+	font-size:20px;
+}

@@ -1,0 +1,16 @@
+/*for font-size use rem*/
+/* for padding, buttons and margin use em*/
+html{
+	font-size:62.5%;/*10px*/
+}
+h1{
+	font-size:4.8rem;/*48px*/
+	border:0.5em solid black;/*half of4.8rem= 24px*/
+	padding:0.5em;/*to be more responsiv while managin font-size*/
+}
+p{
+	font-size:2rem;
+	
+}
+
+
