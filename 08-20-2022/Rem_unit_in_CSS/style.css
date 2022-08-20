@@ -1,0 +1,21 @@
+html{
+	font-size:10px;/*to calculate easlly*/
+	
+	/*font-size:62.5%; means 10px becouse 100% is 16px by default, so 62.5% of 16px is 10px,
+	and this style is better than 10PX  becouse it is more responsive */
+	
+}
+/*:root{
+	font-size:10px;
+}*/
+
+.box1{
+	font-size:2rem;/*"REM"	Relative to(default or adited) font-size of the root (html) element, This means that 1rem equals the font size of the html element, which for most browsers has a default value of 16px*/
+}
+.text-content{
+	font-size:3rem;/*30px*/
+	border:1rem solid red;/*10px*/
+	margin:0.5rem ;/*5px*/
+	padding:2.5rem;/*25px*/
+	
+}
