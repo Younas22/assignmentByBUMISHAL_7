@@ -1,0 +1,33 @@
+*{
+	box-sizing:border-box;
+}
+.fav-musicians{
+	border:10px solid green;
+}
+
+
+.mozart, .beethoven, .bach, .paganini{
+	width:25%;
+	padding:20px;
+	float:left;
+}
+
+.mozart, .bach{
+	background:lightgoldenrodyellow;
+}
+.beethoven, .paganini{
+	
+	background:lightsalmon;
+}
+
+.fav-musicians::after{
+	
+	/*by this way you dont need to write extra things in html*/
+	content:"";
+	display:block;
+	clear:both;
+}
+
+/*.clearfix{
+	clear:both;
+}*/
