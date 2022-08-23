@@ -1,0 +1,60 @@
+body{
+	font-family:Arial,Helvelica, sans-serif;
+}
+.container{
+	width:800px;
+	height:500px;
+	border:8px solid green;
+	margin-top:50px;
+	margin-bottom:50px;
+	position:relative;
+}
+
+		/*			##### RELATIVE  ######
+		
+		1).relative to itself, we use it to move our alements by keeping its old place (document flow) safe.
+		
+		2).working without troubling other element around them.
+		
+		3).relative has 4 values does not work without, top, right, bottom and left. so it will be going to move to opposite of the given values, and starts to move from its place, so if you giv top value it will be going to move from top of itself to bottom etc.
+		
+		4).order of elements will judge that which alement will be in front and and what will be going behind, so the last one will be in the front, now! if you want the last to be going behind use the value z-index, so if all alements have z-index than the one with top value of z-index will be in the front, remember the default value of z-index is 0, and you can make it minus.
+		*/
+
+.container h1{
+	border: 4px solid red;
+	background:lightyellow;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -100%),
+		
+}
+/*			#### ABSOLUTE  ###
+	1).now this element will move relative to the page frame not relative to itself.
+	so if you set top value it means it will be starting to move frome the top of the page not from ist place etc.
+	
+	2).Goes out from the page frame (document flow), It's like you deleted it from the page, and the alement that is after it will takes its place.
+	
+	3).some time we use RELATIVE in a parent of ABSOLUTE when we want an alement to be moved relative to some other alement. so in this case it will move in one of 4 values relative to the parent's frame that has RELATIVE position, ABSOLUTE starts from the nearest parent and searches, from where he was found the RELATIVE, he stands there, or else he stands in the root (HTML).
+	
+	4). to center an element:
+			1-set its position to absolute.
+			2- set its parent's position to relative.
+			3-set top to 50%.
+			4-set left to 50%.
+			-----Now-----
+			5- use transform: translate(-50%, -50%) translate means to move,
+	
+	5). ABSOLUTE can be relative to some other absolute parent.
+	*/
+
+		
+.container h3{
+	background:black;
+	color:#fff;
+}
+.container p{
+	border: 4px solid purple;
+	background:lightgray;
+}

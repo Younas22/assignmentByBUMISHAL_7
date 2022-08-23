@@ -1,0 +1,34 @@
+body{
+	font-family:Arial,Helvelica, sans-serif;
+}
+.container{
+	width:800px;
+	height:500px;
+	border:8px solid green;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.container h1{
+	border: 4px solid red;
+	background:lightyellow;
+		
+}
+h3{
+	background:black;
+	color:#fff;
+	position:sticky;
+	top:0px;
+	
+	}
+	/*
+	1). combined with 2 positions static and fixed.
+	
+	2). keep itself in normal document's flow, but when scrolled it will be fixed. 
+	
+	3). if it is in some other element than it will be hidden after hiding that element, so if you want to keep it till end please keep the alement direct in the body.
+	*/
+	
+.container p{
+	border: 4px solid purple;
+	background:lightgray;
+}

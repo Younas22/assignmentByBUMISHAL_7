@@ -1,0 +1,34 @@
+body{
+	font-family:Arial,Helvelica, sans-serif;
+}
+.container{
+	width:800px;
+	height:500px;
+	border:8px solid green;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.container h1{
+	border: 4px solid red;
+	background:lightyellow;
+		
+}
+.container h3{
+	background:black;
+	color:#fff;
+	position:fixed;
+	top:0px;
+	
+}
+/*			##### fixed  #####
+		1). goes out of bocument's flow.
+		
+		2). chages block alements into inline-block alements, but you can change by using display.
+		
+		3).it means fix on view Whatever you do on the page,and it will go out of its place and folow the view.
+*/
+
+.container p{
+	border: 4px solid purple;
+	background:lightgray;
+}

@@ -1,0 +1,44 @@
+body{
+	font-family:Arial,Helvelica, sans-serif;
+}
+.container{
+	width:800px;
+	border:8px solid green;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.container h1{
+	border: 4px solid red;
+	background:lightyellow;
+	position:absolute;
+	top:0px;
+	right:0;
+		
+}
+/*			#### ABSOLUTE  ###
+	1).now this element will move relative to the page frame not relative to itself.
+	so if you set top value it means it will be starting to move frome the top of the page not from ist place etc.
+	
+	2).Goes out from the page frame (document flow), It's like you deleted it from the page, and the alement that is after it will takes its place.
+	
+	3).some time we use RELATIVE in a parent of ABSOLUTE when we want an alement to be moved relative to some other alement. so in this case it will move in one of 4 values relative to the parent's frame that has RELATIVE position, ABSOLUTE starts from the nearest parent and searches, from where he was found the RELATIVE, he stands there, or else he stands in the root (HTML).
+	
+	4). to center an element:
+			1-set its position to absolute.
+			2- set its parent's position to relative.
+			3-set top to 50%.
+			4-set left to 50%.
+			-----Now-----
+			5- use transform: translate(-50%, -50%) translate means to move,
+	
+	5). ABSOLUTE can be relative to some other absolute parent.
+	*/
+	
+.container h3{
+	background:black;
+	color:#fff;
+}
+.container p{
+	border: 4px solid purple;
+	background:lightgray;
+}

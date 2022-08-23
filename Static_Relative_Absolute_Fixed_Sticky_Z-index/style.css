@@ -1,0 +1,27 @@
+body{
+	font-family:Arial,Helvelica, sans-serif;
+}
+.container{
+	width:800px;
+	border:8px solid green;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.container h1{
+	border: 4px solid red;
+	background:lightyellow;
+	/*position:static;     ----->default and 4 values does not work with it*/
+	position:relative;/*does not work without one of four values*/
+	/*top:150px;*/
+	/*z-index:-1;*/
+	/*left:50px;*/
+	
+}
+.container h3{
+	background:black;
+	color:#fff;
+}
+.container p{
+	border: 4px solid purple;
+	background:lightgray;
+}
