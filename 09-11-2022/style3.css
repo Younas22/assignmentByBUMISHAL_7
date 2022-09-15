@@ -1,0 +1,17 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    /* transition-property: background;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition: background 500ms ease-in-out,
+                width 1s ease-in-out,
+                height 2s ease-in-out; */
+                transition: all 1s ease-in-out;
+}
+.box:hover{
+    background-color: lightcoral;
+    width: 200px;
+    height: 150px;
+}

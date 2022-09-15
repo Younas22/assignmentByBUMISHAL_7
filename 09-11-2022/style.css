@@ -1,0 +1,39 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: box-bg;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    /* animation-iteration-count: 3; */
+    animation-fill-mode: forwards;
+}
+@keyframes box-bg{
+    from{
+        background-color:red;
+    }
+    to{
+        background-color: orange;
+        
+    }
+}
+.box2{
+    width: 15px; 
+    height: 10px; 
+    background-color: blue;
+    animation-name: grow-width;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+
+}
+@keyframes grow-width{
+    from{
+        width: 0px;
+
+    }
+    to{
+        width: 300px;
+
+    }
+}
