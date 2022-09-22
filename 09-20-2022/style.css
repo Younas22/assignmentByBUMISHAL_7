@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.cotainer{
+    max-width: 1440px;
+    border: 2px solid red;
+    margin: 100px auto;
+    display: grid;
+    grid-auto-flow: column;/* or columns*/
+    grid-auto-columns: 100px;
+
+    /*with grid we don't use % but we use fr*/
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+            /*^^^^^^ 3 means colums*/
+            /*^^^^^^^^^^^to set height of rows were created by isself*/
+    /* grid-template-rows: 100px ; */
+
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+    gap: 10px;
+    
+}
+/* implicit */
+/* explicit */
+/* grid container */
+/* grid items */
+
+.cotainer .item{
+    background-color: #487eb0;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}

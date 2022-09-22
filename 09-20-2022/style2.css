@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.cotainer{
+    max-width: 1440px;
+    border: 2px solid red;
+    margin: 100px auto;
+    display: grid;
+    grid-auto-flow: row;/* or columns*/
+    gap: 10px;
+    grid-auto-rows: 100px;
+    /* grid-template-columns: 300px repeat(2, 1fr); */
+
+    /*variable columns  >>>>>>>>>> auto-fill (witch does not streach) /  auto-fit (witch streachs)*/   
+
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    
+}
+
+
+.cotainer .item{
+    background-color: #487eb0;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}
