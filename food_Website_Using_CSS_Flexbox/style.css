@@ -93,7 +93,7 @@ body{
 
 .showcase-area{
     height: 50vh;
-    background: linear-gradient(rgba(240, 240, 240, 0.124), rgba(255, 255, 255, 0.136)), url(./img/header-image2.jpg);
+    background: linear-gradient(rgba(240, 240, 240, 0.056), rgba(255, 255, 255, 0.067)), url(./img/header-image2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
