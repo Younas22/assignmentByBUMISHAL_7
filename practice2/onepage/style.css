@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    height: 100vh;
+    background:linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.85)), url('./111.jpg');
+    background-position:right;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    
+}
+
+
+.btn{
+    font-size: 1.8rem;
+    font-weight: 500;
+    background-color: #2587be;
+    color: #fff;
+    border-radius: 0.3em;
+    padding: 0.7em 2.5em;
+    text-align: center;
+    text-decoration: none;
+
+}
+nav{
+    box-shadow:  3px 3px 0  0 rgb(243, 240, 240);
+    background-color: #fff;
+}
+body > section > div i{
+    color: #2587be;
+}
+.nav-items,
+.showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.nav-items ul.manu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    width: 80%;
+    margin: 0 auto;
+    height: 7.5rem;
+    
+}
+body > nav > div > ul{
+    list-style: none;
+    width: 60%;
+     
+    
+
+}
+body > nav > div > div > h2{
+    font-size: 4rem;
+    font-weight: 300;
+    color: #071e26;
+}
+body > nav > div > ul li a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #333;
+
+}
+body > nav > div > ul > li.item.item1 > a{
+    color: #2587be;
+}
+body > nav > div > ul > li.item.item7 > a > span{
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+/* ########################### main styling ######################### */
+main{
+    margin: 1rem auto;
+    height: 50vh;
+    width: 100%;
+    
+}
+.main .heading-wrapper{
+    width: 40%;
+    height: 100%;
+    padding: 5em 0;
+    margin: 1rem auto;
+    
+}
+.main-heading{
+    color: #071e26;
+}
+body > main > div > h1{
+    font-size: 6rem;
+    color: #071e26;
+    line-height: 1.4em;
+    display: block;
+
+}
+body > main > div > p{
+    color: #333;
+    font-size: 2.5rem;
+    display: block;
+    margin: 0.4em 0 1.4em 0;
+}
+
+body > main > div > h1,
+body > main > div > p,
+body > main > div > div{
+    text-align: center;
+    
+}
+
+
+.showcase{
+    width: 80%;
+    margin: 1rem auto;
+}
+.showcase .content{
+    box-shadow:  2px 2px 5px  5px rgb(243, 240, 240);
+    height: 30rem;
+    margin-left: 5rem;
+    padding: 5rem 4rem;
+    background-color: #fff;
+}
+body .showcase i.command{
+    font-size:3rem ;
+    font-style: normal;
+    
+}
+body > section > div > h2{
+    font-size: 2rem;
+    color: #071e26;
+    margin: 1.5rem 0;
+}
+body .showcase div p{
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 3rem;
+}
+body > section.showcase div.content:nth-child(3) > h2{
+    margin: 0.5rem 0 2.5rem 0;
+}
+body > section.showcase div.content:nth-child(3){
+    padding: 4.5rem 4rem;
+}
