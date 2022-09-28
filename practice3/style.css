@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 80px;
+}
+main{
+    height: 60vh;
+}
+footer{
+    background-color: rgb(58, 58, 58);
+    border: 3rem 0 3rem 0 solid rgb(245, 245, 245);
+    padding: 6rem 5rem;
+}
+.footer,
+.social,
+.location,
+.phone,
+.email
+{
+    display: flex;
+}
+.footer{
+    justify-content:space-between; 
+}
+.location,
+.phone,
+.email{
+    align-items: center;
+    
+    
+}
+.icon-box1{
+    background-color: rgb(24, 24, 24);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 3rem 2rem 0 0;
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location > div:nth-child(2),
+.phone h2,
+.email h2{
+    margin-top: 3rem;
+    color: #fff;
+}
+.location p{
+    font-size: 1.4rem;
+    margin-bottom: .4em;
+}
+.email h2{
+    color: rgb(107, 121, 255);
+}
+
+.footer i{
+    color: #fff;
+    font-size: 2rem;
+
+}
+.about{
+    padding-top: 3rem;
+}
+
+body > footer > div.about{
+    width: 250px;
+}
+body > footer > div.about > div.heading > p{
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    color: rgb(163, 163, 163);
+    padding: 2rem 0;
+    text-align: justify;
+}
+body > footer > div.about > div.heading > h2{
+    font-size: 1.6rem;
+    color: #fff;
+}
+.icon-box2{
+    background-color: rgb(24, 24, 24);
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    margin-right: 1rem;
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+}
